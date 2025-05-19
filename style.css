@@ -1,0 +1,46 @@
+/* Set the background color for the whole page, center text, and use a clean sans-serif font */
+body {
+  background-color: lightpink;
+  text-align: center;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+/* Style the profile card container */
+.card {
+  background: #fff; /* White background for the card */
+  border: 2px solid #c2185b; /* Dark pink border */
+  border-radius: 12px; /* Rounded corners */
+  padding: 32px 24px; /* Space inside the card */
+  max-width: 450px; /* Maximum width of the card */
+  margin: 40px auto; /* Center the card horizontally and add space on top/bottom */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07); /* Subtle shadow for depth */
+}
+
+/* Style for the main heading */
+h1 {
+  font-size: 30px; /* Large font size */
+  color: #c2185b; /* Dark pink color */
+}
+
+/* Style for the subheading */
+h2 {
+  font-size: 18px; /* Medium-large font size */
+  color: slateblue; /* Light purple color */
+}
+
+/* Style for the paragraph text */
+p {
+  font-size: 15px; /* Readable font size */
+  line-height: 1.6; /* More space between lines for readability */
+}
+
+/* Style the list of favourite websites */
+.card ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0;       /* Remove default padding */
+  margin: 20px 0 0 0; /* Add spacing above the list */
+}
+
+.card ul li {
+  margin: 12px 0;   /* Add vertical spacing between list items */
+}
